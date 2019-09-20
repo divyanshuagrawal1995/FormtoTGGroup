@@ -1,9 +1,7 @@
 const express = require('express');
 const app = express();
-const axios = require('axios');
-const bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.post('/chatbot', (req, res) => {
 
 
