@@ -54,8 +54,9 @@ onSubmit(e)
 
   render() {
     return (
-      <div>
-          
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
           <form onSubmit={this.submit}>
   <div class="form-group">
     <label for="exampleInputEmail1">Enter Message</label>
@@ -67,6 +68,8 @@ onSubmit(e)
   
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+</div>
+      </div>
       </div>
     )
   }
